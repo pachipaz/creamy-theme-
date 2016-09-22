@@ -1,0 +1,54 @@
+.navbar {
+	background-color: #DA2C38;
+}
+a {
+	color:#F4F0BB;
+	font-family: 'Merriweather';
+}
+.icon-bar{
+	background-color:#F4F0BB;
+}
+.navbar {
+	margin-bottom: 0px;
+}
+
+.fondo {
+	background-image: url("../img/creamy.jpg");
+	height: 400px;
+	background-size: cover;
+	background-position: center;
+}
+.titulo , .bajada {
+	text-align: center;
+	color:#F4F0BB;
+	font-family: 'Merriweather';
+	
+}
+.titulo {
+	margin-top: 30%;
+}
+.opacidad {
+	background-color: rgba(62,63,64,.5);
+	height: 400px;
+}
+.descripcion {
+	background-color:#F4F0BB; 
+	color:#DA2C38;
+	font-family: 'Merriweather';
+	height: 431px;
+	
+}
+.oh {
+	margin-top: 12%;
+	text-align: center;
+}
+.creamy {
+	margin-top: 5%;
+	text-align: center;
+	margin-left: 16px 0; 
+}
+.copahelado {
+	height:299px;
+	width: 446px;
+	margin-left: 16px 0; 
+}
