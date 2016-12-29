@@ -35,7 +35,7 @@ a {
 	background-color:#F4F0BB; 
 	color:#DA2C38;
 	font-family: 'Merriweather';
-	height: 431px;
+	height: 435px;
 	
 }
 .oh {
@@ -48,7 +48,75 @@ a {
 	margin-left: 16px 0; 
 }
 .copahelado {
-	height:299px;
-	width: 446px;
-	margin-left: 16px 0; 
+	height:371px;
+	width: 556px;
+	margin-left:-15px;
+	margin-top: 4%; 
+}
+
+/*seccion cuatro*/
+.about {
+	background-color:#DA2C38;
+	height:234px; 
+	color:#F4F0BB; 
+	text-align: center;
+	font-family: 'Merriweather'; 
+}
+.aboutcreamy{
+	margin-top: 60px;
+}
+
+/*ICONOS*/
+span{
+	font-size: 80px;
+	
+}
+.amarillo{
+	background-color:#F4F0BB;
+	height: 437px; 
+}
+.iconos{
+	color: #DA2C38;
+	font-family: 'Merriweather';
+	padding-top: 5%;
+	padding-bottom: 10%;
+	
+}
+
+/* FOOTER */
+.registro{
+	color: #F4F0BB;
+	font-family: 'Merriweather';
+	display: inline-block;
+	height: 10%;
+	margin-top: 20px;
+}
+
+.color{
+	background-color : #DA2C38 ;
+	
+}
+/*MEDIA QUERY*/
+
+@media (min-width:1000px) {
+
+.copahelado {
+	width: 100%;	
+	}
+.titulo{
+	margin-top:17%;
+	}
+}
+@media (max-width: 420px){
+	.registro{
+		height: 1%;
+		margin-top: 5px;
+	}
+	.amarillo{
+		height: 90%;
+	}
+	.about{
+		 background-color: #DA2C38;
+		 height: 100%;
+	}
 }
